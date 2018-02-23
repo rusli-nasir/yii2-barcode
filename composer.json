@@ -1,0 +1,25 @@
+{
+    "name": "rusli-nasir/yii2-barcode",
+    "description": "This extension based on JsBarcode forked from lindell/JsBarcode",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," yii2-barcode"," barcode-generator"],
+    "homepage":"https://github.com/rusli-nasir/yii2-barcode.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rusli Nasir",
+            "email": "rusli.nasir.m@gmail.com",
+            "GitHub":"https://github.com/rusli-nasir/"
+        }
+    ],
+    "minimum-stability": "stable", 
+    "require": {
+      "rusli-nasir/JsBarcode": "v3.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "dexter\\barcode\\": ""
+        }
+    }
+    
+}
